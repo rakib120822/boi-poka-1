@@ -7,6 +7,7 @@ function Home() {
   const allBooks = useLoaderData();
   return (
     <div>
+      <title> BoiPoke - Home</title>
       <div className='h-[300px] my-10'>
         <Banner/>
       </div>

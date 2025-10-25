@@ -27,6 +27,7 @@ function Login() {
 
   return (
     <div className="flex justify-center items-center  h-full">
+      <title>BoiPoka - Login Page</title>
       <form onSubmit={handleSubmit}>
         <fieldset className="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
           <h1 className="text-black font-bold text-2xl text-center">Login</h1>
@@ -78,7 +79,7 @@ function Login() {
               Create An Account
             </Link>
           </div>
-          <button className="btn btn-neutral mt-4">Login</button>
+          <button className="btn bg-red-500 text-white mt-4">Login</button>
         </fieldset>
       </form>
     </div>

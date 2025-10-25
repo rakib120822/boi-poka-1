@@ -46,6 +46,7 @@ function ReadList() {
 
   return (
     <div>
+      <title>BoiPoka - ReadList</title>
       <details className="dropdown my-5">
         <summary className="btn m-1">sort by : {sort ? sort : ""}</summary>
         <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">

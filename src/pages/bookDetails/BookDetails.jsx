@@ -31,6 +31,7 @@ function BookDetails() {
 
   return (
     <div className="card bg-base-100 border max-w-2/3 flex-row gap-10  shadow-sm my-[100px]">
+      <title>{bookName}</title>
       <figure className="p-4 bg-gray-100 max-w-1/2">
         <img src={image} alt="book" className="w-full " />
       </figure>

@@ -6,7 +6,7 @@ import { LuEyeClosed } from "react-icons/lu";
 import { FaEye } from "react-icons/fa";
 
 function Register() {
-  const { signUp, updateInfo, setLoading, logOut ,setUser} = use(AuthContext);
+  const { signUp, updateInfo, setLoading, logOut, setUser } = use(AuthContext);
   const [show, setShow] = useState(false);
 
   const handleSubmit = (e) => {
@@ -21,21 +21,22 @@ function Register() {
         updateInfo(displayName, photoURL)
           .then(() => {
             logOut()
-              .then()
+              .then(() => {
+                setLoading(false);
+                setUser(null);
+                swal("Good job!", "Please log in!", "success");
+              })
               .catch((err) => swal(err.message, "error"));
-              setLoading(false);
-              setUser(null)
           })
           .catch((err) => swal(err.message, "error"))
       )
       .catch((err) => swal(err.message, "error"));
-
-    swal("Good job!", "Please log in!", "success");
     e.target.reset();
   };
 
   return (
     <div className="flex justify-center items-center  h-full">
+      <title>BoiPoka - Register Page</title>
       <form onSubmit={handleSubmit}>
         <fieldset className="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
           <h1 className="text-black font-bold text-2xl text-center">
@@ -95,7 +96,7 @@ function Register() {
               Please Sign In
             </Link>
           </div>
-          <button className="btn btn-neutral mt-4">Submit</button>
+          <button className="btn bg-red-500 text-white mt-4">Submit</button>
         </fieldset>
       </form>
     </div>

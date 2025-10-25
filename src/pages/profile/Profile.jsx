@@ -14,7 +14,7 @@ function Profile() {
 
     updateInfo( displayName, photoURL)
       .then(() => {
-        swal("Sign In", "You clicked the button!", "success");
+        swal("Updated!", "You clicked the button!", "success");
         setUser({ ...user, displayName, photoURL });
         setUpdate(!update);
       })
@@ -23,6 +23,7 @@ function Profile() {
 
   return (
     <div className=" flex justify-center items-center my-10 ">
+      <title>{`Profile - ${user?.displayName}`}</title>
       <div className=" bg-base-200 border border-red-300 rounded-2xl">
         <div className="hero-content flex-col lg:flex-row">
           <img

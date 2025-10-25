@@ -3,6 +3,7 @@ import React from "react";
 function About() {
   return (
     <div className="min-h-screen bg-base-100 py-16 px-4 md:px-20">
+      <title>BoiPoka - About</title>
       <div className="max-w-6xl mx-auto">
         <h1 className="text-5xl font-bold text-center mb-8">About Boi-Poka</h1>
         <p className="text-lg text-center text-gray-700 mb-12">
