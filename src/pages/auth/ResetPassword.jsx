@@ -23,6 +23,7 @@ function ResetPassword() {
         <fieldset className="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
           <h1 className="text-black font-bold text-2xl text-center">
             Reset Password
+            
           </h1>
 
           <label className="floating-label my-2">

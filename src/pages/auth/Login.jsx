@@ -79,7 +79,7 @@ function Login() {
               Create An Account
             </Link>
           </div>
-          <button className="btn bg-red-500 text-white mt-4">Login</button>
+          <button className="btn bg-red-500 text-whi mt-4">Login</button>
         </fieldset>
       </form>
     </div>
