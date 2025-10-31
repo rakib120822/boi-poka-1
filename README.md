@@ -1,16 +1,96 @@
-# React + Vite
+### Boi Poka
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Boi Poka is a book reading website built using Vite + React, React Router, Tailwind CSS, Swiper Slider, DaisyUI, and Firebase Authentication.
+The website allows users to browse books, view details, manage wishlists, and update profiles.
 
-Currently, two official plugins are available:
+### Live Website: https://boi-poka-effd2.web.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📝 Project Overview
 
-## React Compiler
+Boi Poka is a dynamic book reading platform that allows users to explore book collections, add books to wishlists or readlists, and manage their profile.
+The website fetches book data from a fake JSON file in the public folder and uses local storage to store user selections.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Key Sections:
 
-## Expanding the ESLint configuration
+Browse books with details
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Add books to wishlist/readlist
+
+Manage profile and update profile information
+
+Local storage for persistent user selections
+
+### 🛠️ Technologies Used
+
+Vite + React
+
+React Router
+
+Tailwind CSS
+
+Swiper Slider
+
+DaisyUI
+
+Firebase Authentication
+
+### ✨ Key Features
+
+📚 Fetch book data from JSON file
+
+🔍 View book details
+
+📝 Add books to wishlist/readlist
+
+💾 Local Storage to persist user selections
+
+👤 Profile Page with ability to update profile
+
+Responsive and interactive UI with Swiper Slider
+
+### 🚀 How to Use
+
+Clone the repository:
+
+git clone <your-repo-link>
+
+
+Navigate to the project folder:
+
+cd boi-poka
+
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm run dev
+
+
+Open the URL provided by Vite (e.g., http://localhost:5173) in a browser.
+
+### 🎯 Future Targets
+
+Add Admin Panel to manage books and users
+
+Integrate database for persistent book and user data
+
+Create additional pages:
+
+Contact Us
+
+FAQ Page
+
+About Page
+
+Add functionality to read full books and download PDF
+
+Enhance user experience and interactivity
+
+### 👨‍💻 Author
+
+Rakibul Islam Payel
+GitHub: https://github.com/rakib120822
